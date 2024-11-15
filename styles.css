@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+    transition: background-color 0.5s ease;
+    color: #333;
+}
+
+.color-picker-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
