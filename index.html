@@ -3,15 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Picker</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Angles of Elevation and Depression</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <div class="color-picker-container">
-        <h1>Color Picker</h1>
-        <input type="color" id="colorInput" />
-        <p id="colorCode">#ffffff</p>
-    </div>
-    <script src="script.js"></script>
+
+    <!-- Video Lecture Section -->
+    <section id="lecture">
+        <h1>Video Lecture: Angles of Elevation and Depression</h1>
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/uyKvSe6Ltgs?si=IrRk-jGxzlvqQgo7" 
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+        <h2>Quiz: Angles of Elevation and Depression</h2>
+        <form id="quizForm">
+            <div class="quiz-question">
+                <p>1. What is the angle of elevation?</p>
+                <input type="radio" name="q1" value="A"> A. The angle below the horizontal line of sight<br>
+                <input type="radio" name="q1" value="B"> B. The angle above the horizontal line of sight<br>
+                <input type="radio" name="q1" value="C"> C. The angle on the ground<br>
+                <span class="feedback" id="feedback1"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>2. If the angle of depression from a building to a car on the ground is 30°, what does this angle represent?</p>
+                <input type="radio" name="q2" value="A"> A. The angle above the building<br>
+                <input type="radio" name="q2" value="B"> B. The angle from the building down to the car<br>
+                <input type="radio" name="q2" value="C"> C. The angle parallel to the ground<br>
+                <span class="feedback" id="feedback2"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>3. Which trigonometric function is often used to solve problems involving angles of elevation?</p>
+                <input type="radio" name="q3" value="A"> A. Cosine<br>
+                <input type="radio" name="q3" value="B"> B. Sine<br>
+                <input type="radio" name="q3" value="C"> C. Tangent<br>
+                <span class="feedback" id="feedback3"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>4. In a right-angled triangle, if you know the angle of depression and the adjacent side, which trigonometric ratio would you use to find the opposite side?</p>
+                <input type="radio" name="q4" value="A"> A. Sine<br>
+                <input type="radio" name="q4" value="B"> B. Cosine<br>
+                <input type="radio" name="q4" value="C"> C. Tangent<br>
+                <span class="feedback" id="feedback4"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>5. Which of the following is a real-life application of the angle of elevation?</p>
+                <input type="radio" name="q5" value="A"> A. Calculating the height of a tree<br>
+                <input type="radio" name="q5" value="B"> B. Finding the length of a road<br>
+                <input type="radio" name="q5" value="C"> C. Estimating time<br>
+                <span class="feedback" id="feedback5"></span>
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </section>
+
+    <!-- Assignment Section -->
+    <section id="assignment">
+        <h2>Assignment</h2>
+        <p><strong>Assignment Question:</strong></p>
+        <p>Create 5 real-life problems involving angles of elevation and depression, such as determining the height of a building or the distance from an observer to an object. Provide solutions with diagrams.</p>
+        <p>Please submit your assignment by sending an email to: <a href="mailto:trigonometryassignment101@gmail.com">trigonometryassignment101@gmail.com</a></p>
+        <textarea id="assignmentInput" rows="6" placeholder="Write your assignment here..."></textarea>
+        <button id="submitAssignment" onclick="submitAssignment()">Submit Assignment</button>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donation">
+        <h2>PLEASE DONATE</h2>
+        <p>Account Number: 2032202001590</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GTBank_logo.svg/768px-GTBank_logo.svg.png" alt="GTBank Logo" width="150">
+        <p>Wave Mobile: 3709558</p>
+        <img src="https://s.rfi.fr/media/display/ed44f02a-c239-11ec-b0fc-005056bf8594/w:1280/p:16x9/wave-senegal-mobile-money.png" alt="Wave Mobile Logo" width="150">
+    </section>
+
+    <script src="script.js"></script> <!-- Link to external JS file -->
 </body>
 </html>
